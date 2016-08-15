@@ -1252,7 +1252,7 @@ public class XResources extends XResourcesSuperClass {
 	 * Mainly used when inflating layouts.
 	 * @hide
 	 */
-	public static class XTypedArray extends TypedArray {
+	public static class XTypedArray extends MiuiTypedArray {
 		private boolean mIsObjectInited;
 		private XResources mRes;
 
